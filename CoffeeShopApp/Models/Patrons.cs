@@ -12,7 +12,7 @@ namespace CoffeeShopApp.Models
         {
             Coffee, Espresso, Tea, Cappuccino, Latte, Americano, Other
         }
-
+        [Key]
         public int PatronID { get; set; }
 
         [Required(ErrorMessage = "Required field")]

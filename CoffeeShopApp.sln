@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopApp", "CoffeeShopApp\CoffeeShopApp.csproj", "{F6429582-E02B-4ABA-B7B9-B641BD067704}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CoffeeShopDB", "CoffeeShopDB\CoffeeShopDB.sqlproj", "{7384A477-A247-4753-B6C9-65CFB6FB675A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{072C7925-CE74-4E65-90B9-CCD415DF97DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{F6429582-E02B-4ABA-B7B9-B641BD067704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6429582-E02B-4ABA-B7B9-B641BD067704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6429582-E02B-4ABA-B7B9-B641BD067704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7384A477-A247-4753-B6C9-65CFB6FB675A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7384A477-A247-4753-B6C9-65CFB6FB675A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7384A477-A247-4753-B6C9-65CFB6FB675A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7384A477-A247-4753-B6C9-65CFB6FB675A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7384A477-A247-4753-B6C9-65CFB6FB675A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7384A477-A247-4753-B6C9-65CFB6FB675A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{072C7925-CE74-4E65-90B9-CCD415DF97DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072C7925-CE74-4E65-90B9-CCD415DF97DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072C7925-CE74-4E65-90B9-CCD415DF97DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072C7925-CE74-4E65-90B9-CCD415DF97DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
