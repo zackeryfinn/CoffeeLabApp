@@ -11,6 +11,34 @@
     <div class="col-md-4">
         <h2>First visit here?</h2>
         <p>
-            Click on the register link at the top of the page to set up an account!         </p>
-        </div>
+            Click on the register link at the top of the page to set up an account!
+        </p>
+        <p>Is it good weather for coffee? It's always good weather for coffee. However, if you want to know the current forecast, clike the button below:</p>
+        <button class="btn btn-default" id="weatherData">Weather</button>
+       
+    </div>
 </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+   
+    <script language="javascript">
+        $(document).ready(function () {
+            
+            $("#weatherData").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: 'https://forecast.weather.gov/MapClick.php?lat=38.4247341&lon=-86.9624089&FcstType=json',
+                    success: function (data) {
+                        alert(data.data.text);
+                    },
+                    error: function () {
+                        alert("Error while inserting data");
+                    }
+
+                });
+
+            });
+            });
+    </script>
+    }
